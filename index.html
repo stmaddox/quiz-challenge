@@ -5,7 +5,7 @@
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Quiz Challenge!</title>
-    <link rel="stylesheet" href=".assets/css/style.css" />
+    <link rel="stylesheet" href="./assets/css/style.css" />
 </head>
 
 <header>
@@ -14,8 +14,8 @@
     </div>
 </header>
 <body>
-    <!--Start Button-->
-    <div class="start-btn"><button>Start Quiz</button></div>
+    
+    
 
     <!--Quiz Rules-->
     <div class="rules-box">
@@ -25,6 +25,36 @@
             <div class="rules-list">2. Once you submit an answer you cannot go back.</div>
             <div class="rules-list">3. If you answer a question incorrectly, 5 seconds will be deducted from the time remaining.</div>
             <div class="rules-list">4. Answer as many correct questions for the most amount of points.</div>
+            <!--Start Button-->
+            <div class="start-btn"><button>Start Quiz</button></div>
+    </div>
+
+    <div class="qa-box hidden">
+        <h2 id="quiz-question">Quesiton 1.</h2>
+        <ul>
+            <li>
+                <button id="answer1">Answer 1</button>
+            </li> <li>
+                <button id="answer2">Answer 2</button>
+            </li> <li>
+                <button id="answer3">Answer 3</button>
+            </li> <li>
+                <button id="answer4">Answer 4</button>
+            </li>
+        </ul>
+    </div>
+
+    <div class="quiz-done hidden">
+        <h2 id="score">All Done! Your Score is: </h2>
+        <input id="initial"><button id="save-btn">Save Button</button>
+    </div>
+
+    <div class="high-score hidden">
+        <ol id="score-list">
+            <li>Score 1</li>
+        </ol>
+        <button class="go-back">Go Back</button>
+        <button class="clear-list">Clear High Score List</button>
     </div>
 </body>
 </html>

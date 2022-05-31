@@ -7,3 +7,7 @@
 .timer {
     display: flex;
 }
+
+.hidden {
+    display: none;
+}
