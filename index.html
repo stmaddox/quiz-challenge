@@ -11,6 +11,7 @@
 <header>
     <div class="quiz-time">
         <h2 class="timer">Time: </h2>
+        <h2 class="time-remaining">60</h2>
     </div>
 </header>
 <body>
@@ -18,30 +19,26 @@
     
 
     <!--Quiz Rules-->
-    <div class="rules-box">
-        <div class="rules-title">Welcome! Here are the rules for the quiz!</div>
+    <div class="rules-box hidden">
+        <div class="rules-title">Here are the rules for the quiz:</div>
         <div class="rules-list"></div>
-            <div class="rules-list">1. You will have 60 seconds to answer all of the questions.</div>
+            <div class="rules-list">1. You will have <span>60 seconds</span> to answer all of the questions.</div>
             <div class="rules-list">2. Once you submit an answer you cannot go back.</div>
-            <div class="rules-list">3. If you answer a question incorrectly, 5 seconds will be deducted from the time remaining.</div>
+            <div class="rules-list">3. If you answer a question incorrectly, 10 seconds will be deducted from the time remaining.</div>
             <div class="rules-list">4. Answer as many correct questions for the most amount of points.</div>
+            <div class="rules-list-ready">Click <span>Start Quiz</span> when you're ready to begin!</div>
             <!--Start Button-->
             <div class="start-btn"><button>Start Quiz</button></div>
     </div>
 
-    <div class="qa-box hidden">
-        <h2 id="quiz-question">Quesiton 1.</h2>
-        <ul>
-            <li>
-                <button id="answer1">Answer 1</button>
-            </li> <li>
-                <button id="answer2">Answer 2</button>
-            </li> <li>
-                <button id="answer3">Answer 3</button>
-            </li> <li>
-                <button id="answer4">Answer 4</button>
-            </li>
-        </ul>
+    <div class="qa-box">
+        <div id="quiz-question">Quesiton 1.</div>
+        <div class="answers">
+            <div class="answers">Answer 1</div>
+            <div class="answers">Answer 2</div>
+            <div class="answers">Answer 3</div>
+            <div class="answers">Answer 4</div>
+        
     </div>
 
     <div class="quiz-done hidden">
