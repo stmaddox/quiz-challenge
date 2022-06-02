@@ -95,5 +95,27 @@ const questions = [
             { text: '59 yards', correct: false},
             { text: '69 yards', correct: false}
         ]
-    }
+    },
+
+    {
+        question: 'Who has throw for the most touchdowns in a single season?',
+        answers: [
+            { text: 'Tom Brady', correct: false},
+            { text: 'John Elway', correct: false},
+            { text: 'Peyton Manning', correct: true},
+            { text: 'Joe Montana', correct: false}
+        ]
+    },
+
+    {
+        question: 'Who holds the record for most rushing yards in a single-game?',
+        answers: [
+            { text: 'Adrian Peterson: 296 yards', correct: true},
+            { text: 'Marcus Allan: 265 yards', correct: false},
+            { text: 'LaDanian Tomlinson: 302 yards', correct: false},
+            { text: 'Shaun Alexander: 280 yards', correct: false}
+        ]
+    },
+
+    
 ];

@@ -2,8 +2,6 @@
 
 Welcome! This is a quiz about your knowledge about the NFL! 
 
-There will be 8 questions to test what you know about the history of the NFL. 
-
 Answer as many questions as you can correctly for the most points! 
 
 If you answer a question incorrectly there will be a 10 second penalty from your remaining time! 
