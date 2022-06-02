@@ -76,4 +76,24 @@ const questions = [
             { text: 'Kansas City Chiefs', correct: false}
         ]
     }
+
+    {
+        question: 'What team has won the most Superbowls?',
+        answers: [
+            { text: 'San Francisco 49ers', correct: false},
+            { text: 'Green Bay Packers', correct: false},
+            { text: 'Pittsburgh Steelers', correct: true},
+            { text: 'Baltimore Ravens', correct: false}
+        ]
+    }
+
+    {
+        quesiton: 'What is the NFL record for longest field goal?',
+        answers: [
+            { text: '62 yards', correct: false},
+            { text: '66 yards', correct: true},
+            { text: '59 yards', correct: false},
+            { text: '69 yards', correct: false}
+        ]
+    }
 ];
