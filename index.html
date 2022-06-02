@@ -6,6 +6,7 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Quiz Challenge!</title>
     <link rel="stylesheet" href="./assets/css/style.css" />
+    <script defer src="./assets/js/quiz.js"></script>
 </head>
 
 <header>
@@ -31,17 +32,27 @@
             <div class="start-btn"><button>Start Quiz</button></div>
     </div>
 
-    <div class="qa-box">
-        <div id="quiz-question">Quesiton 1.</div>
-        <div class="answers">
-            <div class="answers">Answer 1</div>
-            <div class="answers">Answer 2</div>
-            <div class="answers">Answer 3</div>
-            <div class="answers">Answer 4</div>
-        
-    </div>
+    <section class="qa-box hidden">
+        <div class="quiz-question">
+            <span>What team won the first Superbowl?</span> 
+        </div>
+        <div class="answer-choice">
+            <div class="answer">
+                <span>Kansas City Chiefs</span>  
+            </div>    
+            <div class="answer">
+                <span>Oakland Raiders</span>  
+            </div>                
+            <div class="answer">
+                <span>Green Bay Packers</span>  
+            </div>                
+            <div class="answer">
+                <span>Houston Oilers</span>  
+            </div>    
+        </div>
+    </section>
 
-    <div class="quiz-done hidden">
+    <div class="quiz-done">
         <h2 id="score">All Done! Your Score is: </h2>
         <input id="initial"><button id="save-btn">Save Button</button>
     </div>
