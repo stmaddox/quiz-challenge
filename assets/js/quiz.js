@@ -75,7 +75,7 @@ const questions = [
             { text: 'Oakland Raiders', correct: false},
             { text: 'Kansas City Chiefs', correct: false}
         ]
-    }
+    },
 
     {
         question: 'What team has won the most Superbowls?',
@@ -85,7 +85,7 @@ const questions = [
             { text: 'Pittsburgh Steelers', correct: true},
             { text: 'Baltimore Ravens', correct: false}
         ]
-    }
+    },
 
     {
         quesiton: 'What is the NFL record for longest field goal?',
