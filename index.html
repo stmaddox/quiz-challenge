@@ -9,60 +9,58 @@
     <script defer src="./assets/js/quiz.js"></script>
 </head>
 
-<header>
-    <div class="quiz-time">
-        <h2 class="timer">Time: </h2>
-        <h2 class="time-remaining">60</h2>
-    </div>
-</header>
+
 <body>
     
     
-
-    <!--Quiz Rules-->
-    <div class="rules-box hidden">
-        <div class="rules-title">Here are the rules for the quiz:</div>
-        <div class="rules-list"></div>
-            <div class="rules-list">1. You will have <span>60 seconds</span> to answer all of the questions.</div>
-            <div class="rules-list">2. Once you submit an answer you cannot go back.</div>
-            <div class="rules-list">3. If you answer a question incorrectly, 10 seconds will be deducted from the time remaining.</div>
-            <div class="rules-list">4. Answer as many correct questions for the most amount of points.</div>
-            <div class="rules-list-ready">Click <span>Start Quiz</span> when you're ready to begin!</div>
-            <!--Start Button-->
-            <div class="start-btn"><button>Start Quiz</button></div>
-    </div>
-
-    <section class="qa-box hidden">
-        <div class="quiz-question">
-            <span>What team won the first Superbowl?</span> 
+    <div class="container">
+        <!--Quiz Rules-->
+        <div class="rules-box" id="rules-box">
+            <div class="rules-title">Here are the rules for the quiz:</div>
+            <div class="rules-list"></div>
+                <div class="rules-list">1. You will have <span>60 seconds</span> to answer all of the questions.</div>
+                <div class="rules-list">2. Once you submit an answer you cannot go back.</div>
+                <div class="rules-list">3. If you answer a question incorrectly, 10 seconds will be deducted from the time remaining.</div>
+                <div class="rules-list">4. Answer as many correct questions for the most amount of points.</div>
+                <div class="rules-list-ready">Click <span>Start Quiz</span> when you're ready to begin!</div>
+                
         </div>
-        <div class="answer-choice">
-            <div class="answer">
-                <span>Kansas City Chiefs</span>  
-            </div>    
-            <div class="answer">
-                <span>Oakland Raiders</span>  
-            </div>                
-            <div class="answer">
-                <span>Green Bay Packers</span>  
-            </div>                
-            <div class="answer">
-                <span>Houston Oilers</span>  
-            </div>    
+
+        <div id="question-location" class="hide">
+            <div id="question">Question</div>
+            <div id="answer-buttons" class="answer-btn">
+                <button class="btn">Answer 1</button>
+                <button class="btn">Answer 2</button>
+                <button class="btn">Answer 3</button>
+                <button class="btn">Answer 4</button>
+            </div>
         </div>
-    </section>
 
-    <div class="quiz-done">
-        <h2 id="score">All Done! Your Score is: </h2>
-        <input id="initial"><button id="save-btn">Save Button</button>
-    </div>
+        <div class="controller">
+        <div class="start-btn btn" id="start-btn">
+            <button>Start Quiz</button></div>
+        </div>
+        <!-- <div class="quiz-done hidden">
+            <h2 id="score">All Done! Your Score is: </h2>
+            <input id="initial"><button id="save-btn">Save Button</button>
+        </div>
 
-    <div class="high-score hidden">
-        <ol id="score-list">
-            <li>Score 1</li>
-        </ol>
-        <button class="go-back">Go Back</button>
-        <button class="clear-list">Clear High Score List</button>
+        <div class="high-score hidden">
+            <ol id="score-list">
+                <li>Score 1</li>
+            </ol>
+            <button class="go-back">Go Back</button>
+            <button class="clear-list">Clear High Score List</button>
+        </div>
+
+        <div class="correct-wrong hidden">
+            <div class="correct">
+                <span>Correct!</span>
+            </div>
+            <div class="wrong">
+                <span>Incorrect!</span>
+            </div>
+        </div> -->
     </div>
 </body>
 </html>

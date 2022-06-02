@@ -1,6 +1,6 @@
 # Test Your Knowledge!
 
-Welcome! This is a quiz about your knowledge in the NFL! 
+Welcome! This is a quiz about your knowledge about the NFL! 
 
 There will be 8 questions to test what you know about the history of the NFL. 
 
